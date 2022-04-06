@@ -1,0 +1,60 @@
+.message img {
+    border-radius: 100%;
+    text-align: left;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    align-items: flex-end;
+    margin-top:150%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.15);
+}
+
+.win {
+    background-color: aliceblue;
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 100px;
+    max-height: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 0px;
+    padding:15px;
+
+    border:0px;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.05);
+    margin: 50px;
+    margin-left: 10px;
+
+
+
+}
+
+.block {
+    padding: 0.5%;
+    width: max-content;
+    display: flex;
+
+}
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px rgba(255,255,255,0.3)0);
+    justify-content: flex-end;
+}
+.nametext {
+    text-align: left;
+    margin: 0px;
+}
+.messagetext {
+    text-align: left;
+    margin-top: 5px;
+    word-wrap: break-word;
+}
+.blockmessage{
+    text-align: left;
+    padding-left: 30px;
+}
+.datatext {
+    text-align: right;
+    margin: 0px;
+}
